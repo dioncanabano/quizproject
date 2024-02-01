@@ -4,6 +4,7 @@ public class Main {
 
         QuestionService questionService = new QuestionService();
 
-        questionService.displayQuestions();
+        questionService.playQuiz();
+        questionService.printScore();
     }
 }
